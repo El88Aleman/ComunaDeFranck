@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/comunaDeFranck.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Comuna De Franck</title>
+</head>
+<nav class="home">
+    <ul class="home2">
+        <li><a class="home3" href="../index.html">Home</a></li>
+    </ul>
+</nav>
+<body>
+<form class="contactos" action="">
+    <label for="nombre">Nombre</label>
+    <input type="text" name="nombre">
+    <br>
+    <label for="email">Email</label>
+    <input type="email" name="email">
+    <br>
+    <label for="contraseña">Contraseña</label>
+    <input type="password" name="contraseña">
+    <p>Deje su mensaje aqui</p>
+    <textarea cols="30" rows="10"></textarea>
+    <input type="button" value="no hace nada"> <!-- No hace nada, solo en JS -->
+    <input type="submit"> <!-- Envia los datos --> <!-- Con el VALUE le decimos que queremos que digan a los botones -->
+    <input type="reset"> <!-- Resetea el formulario -->
+    <br>
+    <label for="genero">Genero:</label>
+    <input type="radio" value="masculino" name="genero"> Masculino
+    <input type="radio" value="femenino" name="genero"> Femenino
+    <input type="radio" value="ne" name="genero"> NE
+    <br>
+    <label for="terminos">Deseas recibir promociones?</label>
+    <input type="checkbox" value="si" name="terminos"> Deseo recibir informacion sobre loteos o ofertas laborales
+    <input type="checkbox" value="no" name="terminos"> No deseo recibir informacion
+    <br>
+    <label for="">De que provincia te comunicas?</label>
+    <select name="provincia">
+    <option value="interior">Interior</option>
+    <option value="buenos aires">Buenos Aires</option>
+    </select>
+</form>
+<div class="wp">
+    <a href=""><img src="../images/whatsapp.png" alt="whatsapp" height="60px" width="60px"></a>
+</div>
+</body>
+</html>

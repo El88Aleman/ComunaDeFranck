@@ -16,6 +16,7 @@ body{
     font-size: 25px;
     font-family: 'Yantramanav', sans-serif;
 }
+/*  */
 .menuPrincipal ul li{
     list-style: none;
     padding-right: 20px;
@@ -25,6 +26,30 @@ body{
     font-weight: 10px;
     font-size: 30px;
     text-decoration: none;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.home2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    font-size: 25px;
+    font-family: 'Yantramanav', sans-serif;
+}
+.home3{
+    color: black;
+    font-weight: 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.home ul li{
+    list-style: none;
+    padding-right: 20px;
 }
 h1{
     text-align: center;
@@ -45,6 +70,35 @@ h3{
 
 }
 .parrafo2{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    background-color: coral;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-family: 'Catamaran', sans-serif;
+    margin-right: 30px;
+}
+.parrafo3{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    background-color: coral;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-family: 'Catamaran', sans-serif;
+    margin-right: 30px;
+}
+.parrafo4{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    background-color: coral;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-family: 'Catamaran', sans-serif;
+}
+.parrafo5{
     text-align: center;
     color: black;
     font-size: 20px;
@@ -73,6 +127,19 @@ h3{
 .maps{
     padding: 10px;
 }
+/* CONTACTOS */
+.contactos{
+    font-size: 20px;
+    font-family: 'Catamaran', sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+.wp{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
 /* GRID */
 main{
     display: grid;
@@ -94,6 +161,39 @@ main{
     justify-items: center;
     align-items: center;
 }
+.fima{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr;
+    grid-template-areas: "parrafo3 foto3";
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+.milkaut{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr;
+    grid-template-areas: "parrafo4 foto4";
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    justify-items: center;
+    align-items: center; 
+    padding: 10px; 
+}
+.solaybrusa{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr;
+    grid-template-areas: "parrafo5 foto5";
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+}
+/* SISTEMA RESPONSIVE */
 @media screen and (max-width: 760px){
     .main{
     grid-template-columns: 0.5fr;
@@ -123,3 +223,4 @@ main{
     justify-content: center;
     align-items: center;
 }
+
