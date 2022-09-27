@@ -11,21 +11,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
     <title>Comuna De Franck</title>
 </head>
 <body>
-    <nav class="home">
-        <ul class="home2">
-            <li><a class="home3" href="../index.html">Home</a></li>
-        </ul>
+    <nav class="navbar bg-light">
+        <form class="container-fluid justify-content-end">
+          <a href="../index.html"><button class="btn btn-outline-success me-2" type="button">Home</button></a>
+        </form>
     </nav>
-<div class="fima">
-    <p class="parrafo3">En F.I.M.A reciclamos todo sin problemas,<br/>
-     nuestra modernizacion desde que iniciamos fue asombrosa! <br/>
-     Actualmente somos un pueblo ejemplo en el reciclado <br/>
-     de todo tipo de basura</p>
-     <img class="foto3" src="../images/fima.png" alt="fima" height="500px" width="1000px">
+<div class="container-fluid">
+    <div class="row">
+        <img src="../images/fima.png" class="img-fluid col-md-12" alt="F.I.M.A">
+    <div class="col-md-6">
+          <h5 class="mt-0">En F.I.M.A reciclamos todo sin problemas</h5>
+          <p> nuestra modernizacion desde que iniciamos fue asombrosa! 
+            Actualmente somos un pueblo ejemplo en el reciclado
+            de todo tipo de basura</p>
+    </div>
+</div>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </div>
 </body>
 </html>
