@@ -11,16 +11,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
     <title>Comuna De Franck</title>
 </head>
-<nav class="home">
-    <ul class="home2">
-        <li><a class="home3" href="../index.html">Home</a></li>
-    </ul>
-</nav>
 <body>
-<form class="contactos" action="">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div id="nav" class="container-fluid ">
+          <img data-aos="flip-left" src="../images/comunaDeFranck.png" alt="Comuna De Franck">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="horariosDeColectivos.html">Horarios De Colectivos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="fima.html">F.I.M.A</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="industrias.html">Industrias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactos.html">Contactos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<div class="contactos fst-italic m-4 action">
     <label for="nombre">Nombre</label>
     <input type="text" name="nombre">
     <br>
@@ -49,9 +73,13 @@
     <option value="interior">Interior</option>
     <option value="buenos aires">Buenos Aires</option>
     </select>
-</form>
-<div class="wp">
-    <a href=""><img src="../images/whatsapp.png" alt="whatsapp" height="60px" width="60px"></a>
+  </div>
+<div class="container-fluid">
+    <div class="row">
+        <a href="#"><img class="col-md-0" src="../images/whatsapp.png" alt="whatsapp" height="60px" width="60px"></a>
+    </div>
 </div>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
