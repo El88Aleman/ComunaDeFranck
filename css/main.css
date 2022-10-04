@@ -10,11 +10,28 @@ body {
     text-decoration: underline; }
 
 #maps a {
-  color: black;
-  background-color: chocolate; }
+  color: #757575;
+  background-color: chocolate;
+  text-decoration: none; }
 
 #maps a:hover {
   font-weight: bold;
   font-size: 20px;
-  background-color: #BDBDBD;
-  color: #FFEB3B; }
+  color: #212121; }
+
+#p1, #p2, #p3, #p4 {
+  background-color: yellow;
+  border-style: solid; }
+
+#p2 {
+  border-style: dashed; }
+
+#p3 {
+  border-style: outset; }
+
+#p4 {
+  border-style: inset; }
+
+#logo {
+  width: 300px;
+  height: 300px; }

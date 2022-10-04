@@ -1,18 +1,15 @@
 $estilos:(
-    color: #FFEB3B,
-    tFuente:20px,
-    background-color: #BDBDBD,
-    text: underline
+    color: #212121,
+    tFuente:20px
 );
 #maps{
-    a{color: black;
-    background-color: chocolate;}
+    a{color: #757575;
+    background-color: chocolate;
+    text-decoration: none;
+    }
     a:hover{
         font-weight: bold;
         font-size: map-get($map:$estilos , $key:tFuente);
-        background-color: map-get($map:$estilos , $key:background-color );
         color: map-get($map:$estilos , $key:color );
-        text-decoration: map-get($map: $estilos, $key:text-decoration );
         }
-
 }
