@@ -1,2 +1,20 @@
 body {
   background-color: beige; }
+
+#nav {
+  background-color: beige; }
+  #nav a:hover {
+    font-weight: bold;
+    background-color: dimgrey;
+    color: coral;
+    text-decoration: underline; }
+
+#maps a {
+  color: black;
+  background-color: chocolate; }
+
+#maps a:hover {
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #BDBDBD;
+  color: #FFEB3B; }
