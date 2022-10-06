@@ -1,6 +1,9 @@
 body {
   background-color: beige; }
 
+h1 {
+  color: #FF5722; }
+
 #nav {
   background-color: beige; }
   #nav a:hover {
@@ -19,19 +22,29 @@ body {
   font-size: 20px;
   color: #212121; }
 
-#p1, #p2, #p3, #p4 {
-  background-color: yellow;
-  border-style: solid; }
-
-#p2 {
-  border-style: dashed; }
-
-#p3 {
-  border-style: outset; }
-
-#p4 {
-  border-style: inset; }
-
-#logo {
-  width: 300px;
-  height: 300px; }
+/* #p1{
+    background-color: yellow;
+    border-style: solid;
+}
+#p2{
+    @extend #p1;
+    border-style: dashed;
+}
+#p3{
+    @extend #p1;
+    border-style: outset;
+}
+#p4{
+    @extend #p1;
+    border-style: inset;
+} */
+/* @mixin sizes ($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+#logo{
+    @include sizes(300px,300px)
+}
+ */
+#boton {
+  background-color: chocolate; }
