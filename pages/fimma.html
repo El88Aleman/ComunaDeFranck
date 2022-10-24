@@ -9,13 +9,16 @@
     <link rel="shortcut icon" href="images/comunaDeFranck.png" type="image/x-icon">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>F.I.M.M.A</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div id="nav" class="container-fluid ">
-          <img data-aos="flip-left" src="../images/comunaDeFranck.png" alt="Comuna De Franck">
+  <header class="bg-header fixed-top">
+    <nav class="navbar navbar-expand-lg nav">
+        <div class="container-fluid">
+          <img class="logo" data-aos="flip-left" src="../images/comunaDeFranck.png" alt="Comuna De Franck">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -40,27 +43,51 @@
           </div>
         </div>
       </nav>
-<h1 class="display-6 fw-semibold text-center text-decoration-underline p-2">F.I.M.M.A RECICLADO DE RESIDUOS</h1>
-<div class="container-fluid text-center m-2">
-    <div class="row">
-        <img src="../images/fima.png" class="img-fluid col-md-6" alt="F.I.M.M.A">
+  </header>
+<main class="main-margin">
+  <div class="container-fluid text-center m-2">
+    <h1 class="display-6 fw-semibold text-center text-decoration-underline p-2">F.I.M.M.A RECICLADO DE RESIDUOS</h1>
+      <div class="row">
+        <img src="../images/fima.png" class="img-fluid col-md-6 rounded-5" alt="F.I.M.M.A.1">
         <div class="col-md-6">
-          <h5 class="fs-1 text-decoration-underline fw-bold">En F.I.M.M.A reciclamos todo sin problemas</h5>
+          <h5 class="fs-1 text-decoration-underline fw-bold pt-5">En F.I.M.M.A reciclamos todo sin problemas</h5>
           <p class="fs-3 fst-italic"> Nuestra modernizacion desde que iniciamos fue asombrosa! 
             Actualmente somos un pueblo ejemplo en el reciclado
             de todo tipo de basura</p>
-    </div>
-</div>
-<div class="container-fluid text-center mt-2">
+        </div>
+  </div>
   <div class="row">
-      <img src="../images/fima2.png.jpg" class="img-fluid col-md-6" alt="F.I.M.M.A">
+    <div class="col-md-6">
+      <h5 class="fs-1 text-decoration-underline fw-bold pt-5">F.I.M.M.A da el ejemplo de como crecer como pueblo en el tema del reciclado</h5>
+      <p class="fs-3 fst-italic"> Recibimos visitas de escuelas donde le mostramos como es que tratamos nuestros reciduos y la importancia que esto implica ne el futuro</p>
+    </div>
+      <div class="col-md-6 order-img">
+      <img src="../images/fima2.png.jpg" class="img-fluid rounded-5" alt="F.I.M.M.A.2">
+      </div>
+    </div>
+    <div class="row">
+      <img class="img-fluid col-md-6 rounded-5" src="../images/fimma3.png" alt="F.I.M.M.A.3">
       <div class="col-md-6">
-        <h5 class="fs-1 text-decoration-underline fw-bold">F.I.M.M.A da el ejemplo de como crecer como pueblo en el tema del reciclado</h5>
-        <p class="fs-3 fst-italic"> Recibimos visitas de escuelas donde le mostramos como es que tratamos nuestros reciduos y la importancia que esto implica ne el futuro</p>
+        <h5 class="fs-1 text-decoration-underline fw-bold pt-5">Se recicla tanto lo humedo como lo seco</h5>
+        <p class="fs-3 fst-italic">En F.I.M.M.A nos tomamos muy en serio la separacion de residuos, es por eso que capacitamos tanto a nuestro pueblo como a nuestro
+          personal para que todo se lleve a cabo y vayamos con una buena iniciativa hacia el futuro </p>
+      </div>
+    </div>
   </div>
 </div>
-<div id="maps" class="container-fluid">
-  <div class="row justify-content-around text-center m-4">
+</main>
+<footer>
+    <div class="row">
+      <div class="col-md-12">
+        <iframe class="pt-4 w-100"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3398.684563654347!2d-60.941124885229584!3d-31.58769688134742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b50b524b8a412f%3A0x447d835ebcf7da08!2sComuna%20de%20Franck!5e0!3m2!1ses-419!2sar!4v1662990402849!5m2!1ses-419!2sar"
+        style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+  </div>
+  <div class="container-fluid maps">
+  <div class="row justify-content-around text-center p-4 ">
     <div class="col-md-4 fw-bold">
       <a href="contactos.html"><p>AYUDA</p></a>
     </div>
@@ -71,7 +98,11 @@
         <a href="https://www.instagram.com/comuna_de_franck/" target="_blank"><p>NUESTRO DIA A DIA</p></a>
       </div>
   </div>
-</div>
+  </div>
+</footer>
+<script>
+  AOS.init();
+</script>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </div>
