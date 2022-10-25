@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px){ 
+    .logo{
+        width: 150px;
+        height: 200px;
+    }
+  }
+  
+  @media screen and (max-width: 768px){ 
+    .order-img{
+        display: flex;
+        order: -1;
+    }
+  }
+  @media  screen and (max-width: 768px) {
+    .texto-1{
+      height: 100px;
+      overflow: scroll;
+      margin-top: 20px;
+    }
+    .img-ind{
+      height: 350px;
+      width: 100%;
+    }
+    
+  }

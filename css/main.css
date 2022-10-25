@@ -1,0 +1,114 @@
+.parallax {
+  background-image: url("../images/franck.png");
+  height: 830px;
+  background-color: beige;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.parallax2 {
+  background-image: url("../images/franckPlaza.png");
+  height: 1300px;
+  background-color: beige;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.parallax3 {
+  background-image: url("../images/Franckaire.png");
+  height: 2000px;
+  background-color: beige;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.nav {
+  background-color: white;
+  max-width: 100%; }
+
+.nav a:hover {
+  font-weight: bold;
+  background-color: dimgrey;
+  color: coral;
+  text-decoration: underline; }
+
+#boton {
+  background-color: chocolate; }
+
+.bg-header {
+  background-color: white; }
+
+.bg-footer {
+  background-color: beige; }
+
+.bg-home {
+  background-color: beige; }
+
+.horarios {
+  background-color: beige; }
+
+.nuestraIndustria {
+  text-shadow: 5px 8px black;
+  background-color: beige; }
+
+body {
+  background-color: beige; }
+
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 150px;
+    height: 200px; } }
+
+@media screen and (max-width: 768px) {
+  .order-img {
+    display: flex;
+    order: -1; } }
+
+@media screen and (max-width: 768px) {
+  .texto-1 {
+    height: 100px;
+    overflow: scroll;
+    margin-top: 20px; }
+  .img-ind {
+    height: 350px;
+    width: 100%; } }
+
+.bg-text {
+  background-color: rgba(0, 0, 0, 0.704);
+  color: white; }
+
+.texto-1 {
+  background-color: rgba(0, 0, 0, 0.704);
+  color: orange;
+  border-top: inset 5px orange;
+  border-right: inset 8px orange;
+  border-bottom: inset 5px orange;
+  border-left: inset 8px orange; }
+
+h1 {
+  color: #FF5722; }
+
+.main-margin {
+  margin-top: 19rem; }
+
+.ind-margin {
+  margin-top: 19rem; }
+
+.maps a {
+  color: gray;
+  text-decoration: none; }
+
+.maps a:hover {
+  font-weight: bold;
+  font-size: 20px;
+  color: #212121; }
+
+.maps {
+  background-color: beige; }
+
+html, body {
+  width: 100%;
+  overflow-x: hidden; }
